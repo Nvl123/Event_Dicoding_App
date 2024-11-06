@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/home"
+        android:title="@string/page_home"
+
+        />
+
+    <item
+        android:id="@+id/toSoonEvent"
+        android:icon="@drawable/soonevent"
+        android:title="@string/title_upcoming_events"/>
+
+    <item
+        android:id="@+id/toPassEvent"
+        android:icon="@drawable/passevent"
+        android:title="@string/title_finished_events" />
+
+    <item
+        android:id="@+id/toFavoritEvent"
+        android:icon="@drawable/favorite"
+        android:title="@string/title_favorit_event"/>
+    <item
+        android:id="@+id/toSettings"
+        android:icon="@drawable/settings2"
+        android:title="@string/title_settings"/>
+
+</menu>

@@ -1,0 +1,8 @@
+<resources >
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MySubmision1Novil" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/primary_variant</item>
+        <item name="android:textColor"> @color/background</item>
+    </style>
+</resources>

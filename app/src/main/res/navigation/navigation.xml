@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.dicoding.mysubmision1novil.data.ui.HomeFragment"
+        android:label="@string/page_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/toSoonEvent"
+        android:name="com.dicoding.mysubmision1novil.data.ui.SoonEventFragment"
+        android:label="@string/title_upcoming_events"
+        tools:layout="@layout/fragment_soon_event" />
+    <fragment
+        android:id="@+id/toPassEvent"
+        android:name="com.dicoding.mysubmision1novil.data.ui.PastEventFragment"
+        android:label="fragment_past_event"
+        tools:layout="@layout/fragment_past_event" />
+    <fragment
+        android:id="@+id/toFavoritEvent"
+        android:name="com.dicoding.mysubmision1novil.data.ui.FavoritFragment"
+        android:label="fragment_favorit"
+        tools:layout="@layout/fragment_favorit" />
+    <fragment
+        android:id="@+id/toSettings"
+        android:name="com.dicoding.mysubmision1novil.data.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".data.settings.SettingsFragment">
+
+    <TextView
+        android:id="@+id/tv_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="@string/title_settings"
+        android:textAlignment="center"
+        android:textColor="@color/on_primary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dark_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/dark_mode"
+        android:textColor="@color/primary_variant"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_settings" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/btn_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:thumbTint="@color/primary"
+        app:trackTint="@color/surface"
+
+        app:layout_constraintStart_toStartOf="@id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/dark_mode"
+        app:layout_constraintTop_toTopOf="@id/dark_mode"/>
+
+    <TextView
+        android:id="@+id/tv_keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Switch_darkMode"
+        android:textSize="10sp"
+        android:paddingLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dark_mode"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="295dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

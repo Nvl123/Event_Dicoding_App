@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#FF5722</color> <!-- Orange cerah sebagai warna utama -->
+    <color name="primary_variant">#E64A19</color> <!-- Variasi warna utama, oranye yang lebih gelap -->
+
+
+    <!-- Background and Surface -->
+    <color name="background">#FFFFFF</color> <!-- Latar belakang utama tetap putih -->
+    <color name="surface">#FFF3E0</color> <!-- Oranye pastel untuk permukaan -->
+
+    <!-- Text Colors -->
+    <color name="on_primary">#FFFFFF</color> <!-- Teks di atas warna utama tetap putih -->
+    <color name="on_secondary">#212121</color> <!-- Teks di atas warna sekunder dalam abu-abu gelap -->
+    <color name="on_background">#424242</color> <!-- Abu-abu untuk teks di latar belakang -->
+
+
+
+</resources>
+

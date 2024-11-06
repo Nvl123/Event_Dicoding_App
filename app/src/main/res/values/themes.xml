@@ -1,0 +1,10 @@
+<resources >
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MySubmision1Novil" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:textColor">@color/on_secondary</item>
+    </style>
+
+    <style name="Theme.MySubmision1Novil" parent="Base.Theme.MySubmision1Novil" />
+</resources>
